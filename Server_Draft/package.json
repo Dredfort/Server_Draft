@@ -1,0 +1,9 @@
+{
+  "name": "server_draft",
+  "version": "0.0.0",
+  "description": "Server_Draft",
+  "main": "app.js",
+  "author": {
+    "name": "user"
+  }
+}
