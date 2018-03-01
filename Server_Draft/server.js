@@ -1,4 +1,5 @@
 ﻿
+var log = require('./logger')(module);
 var db = require('./db');
 db.connect();
 
@@ -10,7 +11,7 @@ function run() {
 
     vasya.Hello(petya);
 
-    console.log(db.getPhrase("Is running!"));
+    log(db.getPhrase("Is running!"));
 }
 
 if (module.parent) {

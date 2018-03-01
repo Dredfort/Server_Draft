@@ -31,6 +31,7 @@
     <Compile Include="db\index.js">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="logger.js" />
     <Compile Include="user\index.js" />
     <Compile Include="server.js">
       <SubType>Code</SubType>
