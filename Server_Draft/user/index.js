@@ -1,9 +1,7 @@
-// exports
-// global
 
 var db = require('../db');
-var log = require('../logger')(module);
 
+var log = require('../logger')(module);
 
 function User(name) {
     this.name = name;
